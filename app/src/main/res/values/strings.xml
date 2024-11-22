@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="button1_desc">프로필사진</string>
+    <string name="button2_desc">하이힐과가방</string>
+    <string name="button3_desc">전송</string>
+    <string name="button4_desc">더보기</string>
+    <string name="button5_desc">사진/동영상</string>
+    <string name="button6_desc">계좌전송</string>
+    <string name="button7_desc">상단더보기</string>
+    <string name="button8_desc">다쥬페이</string>
+    <string name="button9_desc">배송지전송</string>
+    <string name="button10_desc">더보기2</string>
+    <string name="button11_desc">차단하기</string>
+    <string name="button12_desc">신고하기</string>
+    <string name="button13_desc">검색하기</string>
+    <string name="button14_desc">알람켜기</string>
+    <string name="send_image_button_desc">Send Image</string>
+
+
+        <string name="report_reason_prompt">사용자를 신고하는 이유를 선택해주세요.</string>
+        <string name="report_option_1">비매너 사용자예요</string>
+        <string name="report_option_2">허위 상품 및 불법 상품 같아요</string>
+        <string name="report_option_3">거래 중 분쟁이 발생했어요</string>
+        <string name="report_option_4">사기인 것 같아요</string>
+        <string name="report_option_5">욕설 · 비방 · 혐오표현을 해요</string>
+        <string name="report_option_6">연애 목적의 대화를 시도해요</string>
+        <string name="report_option_7">부적절한 성적 행위를 해요</string>
+        <string name="report_option_8">기타 부적절한 행위가 있어요</string>
+        <string name="submit_report_button_text">신고하기</string>
+
+
+</resources>
