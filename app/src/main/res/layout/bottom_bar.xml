@@ -108,7 +108,7 @@
                 android:id="@+id/documentTransferButton"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
-                android:src="@drawable/img_9"
+                android:src="@drawable/img_15"
                 android:scaleType="centerInside"
                 android:background="?android:attr/selectableItemBackground"
                 android:contentDescription="@string/button9_desc"
