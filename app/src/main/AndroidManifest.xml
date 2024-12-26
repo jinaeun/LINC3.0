@@ -20,7 +20,7 @@
 
         <!-- MainActivity: 앱의 진입점 -->
         <activity
-            android:name=".home_MainActivity"
+            android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name">
             <intent-filter>
