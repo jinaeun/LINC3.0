@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.myapplication2"
+    namespace = "mp.p02.home1"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.myapplication2"
+        applicationId = "mp.p02.home1"
         minSdk = 22
         targetSdk = 34
         versionCode = 1
@@ -19,17 +19,12 @@ android {
     buildTypes {
         release {
             isMinifyEnabled = false
-            proguardFiles(
-                getDefaultProguardFile("proguard-android-optimize.txt"),
-                "proguard-rules.pro"
-            )
+            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
         }
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
-
-
     }
     buildFeatures {
         viewBinding = true
