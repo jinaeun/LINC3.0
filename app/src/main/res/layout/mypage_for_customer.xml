@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/customer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingHorizontal="15dp">
+
+
+    <!-- FAQ 제목 -->
+    <TextView
+        android:id="@+id/FAQ_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingLeft="10dp"
+        android:text="FAQ"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <!-- ExpandableListView -->
+    <ExpandableListView
+        android:id="@+id/expandableListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="2dp" />
+
+    <!-- Solution 제목 -->
+    <TextView
+        android:id="@+id/Solve"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Solution"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <!-- 버튼 레이아웃 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <!-- 문의하기 버튼 -->
+        <Button
+            android:id="@+id/question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:background="@drawable/service_button_background"
+            android:textColor="@color/white"
+            android:text="@string/question_button" />
+
+        <!-- 신고하기 버튼 -->
+        <Button
+            android:id="@+id/report"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:background="@drawable/service_button_background"
+            android:textColor="@color/white"
+            android:text="@string/report_button" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_mypage">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.cookandroid.linc_sadaju.my_page.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.cookandroid.linc_sadaju.my_page.ui.dashboard.DashboardFragment"
+        android:label="Dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_chat"
+        android:name="com.cookandroid.linc_sadaju.my_page.ui.chat.ChatFragment"
+        android:label="Notifications"
+        tools:layout="@layout/fragment_chat" />
+
+    <fragment
+        android:id="@+id/navigation_mypage"
+        android:name="com.cookandroid.linc_sadaju.my_page.ui.mypage.MyPageFragment"
+        android:label="MyPage"
+        tools:layout="@layout/fragment_mypage" />
+
+</navigation>

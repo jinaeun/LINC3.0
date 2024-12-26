@@ -1,0 +1,50 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Label for Image -->
+    <TextView
+        android:id="@+id/tv_image_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_images"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Inquiry Image -->
+    <ImageView
+        android:id="@+id/inquiryImages"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/inquiry_Images"
+        android:scaleType="centerCrop"
+        android:background="@android:color/darker_gray" />
+
+    <!-- Label for Text -->
+    <TextView
+        android:id="@+id/tv_text_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_text"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Inquiry Text -->
+    <EditText
+        android:id="@+id/inquiryText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/input_text"
+        android:inputType="text"
+        android:layout_marginTop="8dp"
+        android:importantForAccessibility="yes"
+        android:importantForAutofill="no" />
+
+</LinearLayout>
