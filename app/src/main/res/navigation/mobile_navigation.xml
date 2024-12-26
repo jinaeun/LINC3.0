@@ -7,25 +7,25 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.cookandroid.linc_sadaju.ui.home.HomeFragment"
+        android:name="com.cookandroid.linc_sadaju.my_page.ui.home.HomeFragment"
         android:label="@string/title_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/navigation_dashboard"
-        android:name="com.cookandroid.linc_sadaju.ui.dashboard.DashboardFragment"
+        android:name="com.cookandroid.linc_sadaju.my_page.ui.dashboard.DashboardFragment"
         android:label="@string/title_dashboard"
         tools:layout="@layout/fragment_dashboard" />
 
     <fragment
         android:id="@+id/navigation_chat"
-        android:name="com.cookandroid.linc_sadaju.ui.chat.ChatFragment"
+        android:name="com.cookandroid.linc_sadaju.my_page.ui.chat.ChatFragment"
         android:label="@string/title_chat"
         tools:layout="@layout/fragment_chat" />
 
     <fragment
         android:id="@+id/navigation_mypage"
-        android:name="com.cookandroid.linc_sadaju.ui.mypage.MyPageFragment"
+        android:name="com.cookandroid.linc_sadaju.my_page.ui.mypage.MyPageFragment"
         android:label="@string/title_mypage"
         tools:layout="@layout/fragment_mypage" />
 </navigation>
