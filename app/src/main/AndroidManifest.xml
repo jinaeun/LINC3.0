@@ -13,7 +13,7 @@
         android:theme="@style/Theme.LINC_SADAJU"
         tools:targetApi="34">
         <activity
-            android:name=".my_page.MyPage_MainActivity"
+            android:name=".my_page.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:textColor="@color/black">

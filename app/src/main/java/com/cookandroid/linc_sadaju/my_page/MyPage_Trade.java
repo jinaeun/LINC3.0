@@ -3,6 +3,7 @@ package com.cookandroid.linc_sadaju.my_page;
 
 import android.os.Bundle;
 import android.os.Handler;
+import android.os.Looper;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -102,12 +103,12 @@ public class MyPage_Trade extends AppCompatActivity {
     // 추가 데이터를 불러오는 메서드
     private void loadMoreTransactions(int page) {
         // 로딩 시 지연 효과를 주기 위해 Handler 사용
-        new Handler().postDelayed(() -> {
+        new Handler(Looper.getMainLooper()).postDelayed(() -> {
             int startSize = transactionList.size();
             loadTransactions(page);
             transactionAdapter.notifyItemRangeInserted(startSize, PAGE_SIZE);
             isLoading = false;
-        }, 1500); // 1.5초 지연
+        }, 2000);
     }
 
     // RecyclerView 어댑터 클래스

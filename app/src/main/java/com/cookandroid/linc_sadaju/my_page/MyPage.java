@@ -28,7 +28,7 @@ public class MyPage extends AppCompatActivity {
         logout = findViewById(R.id.logout);         // 로그아웃 버튼
         deleteUser = findViewById(R.id.deleteUser); // 회원탈퇴
 
-        // 설정 편집
+        // 프로필 편집
         editor.setOnClickListener(v -> {
             Intent intent = new Intent(MyPage.this, MyPage_Editor.class);
             startActivity(intent);

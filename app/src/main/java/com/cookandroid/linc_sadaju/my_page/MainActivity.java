@@ -13,7 +13,7 @@ import com.cookandroid.linc_sadaju.databinding.MypageActivityMainBinding;
 
 import com.cookandroid.linc_sadaju.R;
 
-public class MyPage_MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
 
     private MypageActivityMainBinding binding;
 

@@ -53,7 +53,8 @@
                 <ImageButton
                     android:id="@+id/imageButton"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="48dp"
+                    android:contentDescription="@string/ImageTitle"
                     app:srcCompat="@drawable/ic_photos_black_24dp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -89,6 +90,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="end|bottom"
                 android:layout_margin="10dp"
+                android:contentDescription="@string/question_button"
                 android:clickable="true"
                 app:srcCompat="@android:drawable/ic_input_add" />
 
