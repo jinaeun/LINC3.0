@@ -12,7 +12,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
-
+import com.example.myapplication.R;
 import java.util.List;
 
 public class home_RecentItemsActivity extends AppCompatActivity {

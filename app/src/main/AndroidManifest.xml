@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xmnls="http://schemas.android.com/apk/distribution"
     package="mp.p02.home1">
 
     <!-- Permissions -->
@@ -7,7 +8,6 @@
     <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
     <!-- Android 12 이하에서 READ_EXTERNAL_STORAGE 사용 -->
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:maxSdkVersion="32" />
-    xmlns:tools="http://schemas.android.com/tools">
 
     <application
         android:allowBackup="true"

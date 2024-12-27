@@ -11,6 +11,7 @@ import androidx.core.view.GravityCompat;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationView;
 import mp.p02.home1.databinding.HomeActivityBannerContentBinding;
+import com.example.myapplication.R;
 
 public class home_BannerContentActivity extends AppCompatActivity {
 
