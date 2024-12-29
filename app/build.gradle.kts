@@ -1,3 +1,5 @@
+import com.android.tools.r8.internal.ui
+
 plugins {
     alias(libs.plugins.android.application)
 }
@@ -53,4 +55,5 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+
 }

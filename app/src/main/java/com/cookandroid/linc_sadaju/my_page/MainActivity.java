@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.mypage_activity_main);
 
         // ViewBinding 초기화
         binding = MypageActivityMainBinding.inflate(getLayoutInflater());
