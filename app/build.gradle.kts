@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "mp.p02.home1"
+    namespace = "com.example.myapplication"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "mp.p02.home1"
+        applicationId = "com.example.myapplication"
         minSdk = 22
         targetSdk = 34
         versionCode = 1
@@ -28,6 +28,7 @@ android {
     }
     buildFeatures {
         viewBinding = true
+        dataBinding = true
     }
 }
 
