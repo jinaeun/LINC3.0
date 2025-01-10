@@ -22,8 +22,8 @@ import com.example.myapplication.dashboard.PollDetailActivity;
 import com.example.myapplication.dashboard.Post;
 import com.example.myapplication.dashboard.PostAdapter;
 import com.example.myapplication.dashboard.PollsDBHelper;
-import com.example.myapplication2.R;
-import com.example.myapplication2.databinding.FragmentHomeBinding;
+import com.example.myapplication.R;
+import com.example.myapplication.databinding.FragmentHomeBinding;
 
 import java.util.ArrayList;
 
