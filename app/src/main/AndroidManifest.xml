@@ -15,7 +15,7 @@
 
         <!-- Main activity declaration with intent filter -->
         <activity
-            android:name=".chat.MainActivity"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,16 +24,14 @@
         </activity>
 
         <!-- Other activity declarations -->
-        <activity android:name=".chat.Chat" />
-        <activity android:name=".chat.ChatDetailActivity" />
-        <activity android:name=".chat.AccountActivity" />
-        <activity android:name=".chat.AddressActivity" />
-        <activity android:name=".chat.HomeActivity" />
-        <activity android:name=".chat.PayActivity" />
-        <activity android:name=".chat.ProductDetailActivity" />
-        <activity android:name=".chat.ReportActivity" />
-        <activity android:name=".chat.ChatSearchActivity" />
-
+        <activity android:name=".Chat" />
+        <activity android:name=".ChatDetailActivity" />
+        <activity android:name=".AccountActivity" />
+        <activity android:name=".AddressActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".PayActivity" />
+        <activity android:name=".ProductDetailActivity" />
+        <activity android:name=".ReportActivity" />
     </application>
 
 </manifest>

@@ -26,7 +26,11 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+<<<<<<< HEAD
         setContentView(R.layout.chat_activity_main);
+=======
+        setContentView(R.layout.dashboard_activity_main);
+>>>>>>> 3b92ff62f4b0f8b2ff81eb3f5afdf5e7d2c2aa9e
 
         // ListView 연결
         chatListView = findViewById(R.id.chat_list);
