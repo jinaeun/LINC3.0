@@ -18,4 +18,7 @@
     <color name="navigation_bar_color">#FFFFFF</color>
     <color name="primary">#808080</color>
     <color name="gray30_overlay">#66808080</color>
+
+    <color name="gradient_start">#FF000000</color>
+    <color name="gradient_end">#FF000000</color>
 </resources>

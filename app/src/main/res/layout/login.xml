@@ -15,7 +15,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Sign up"
+        android:text="로그인"
         android:textSize="30sp"
         android:textStyle="bold" />
 
@@ -24,14 +24,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Please login to your account"
+        android:text="아이디와 비밀번호를 입력해주세요"
         android:layout_marginTop="5dp" />
 
     <EditText
         android:id="@+id/usernameEditText"
         android:layout_width="match_parent"
         android:layout_height="55dp"
-        android:hint="Username"
+        android:hint="아이디"
         android:inputType="text"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
@@ -54,7 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@android:color/transparent"
-            android:hint="Password"
+            android:hint="비밀번호"
             android:paddingStart="20dp"
             android:paddingEnd="20dp"
             android:textSize="16dp"
@@ -78,7 +78,7 @@
         android:layout_width="wrap_content"
         android:layout_height="48dp"
         android:layout_gravity="end"
-        android:text="Forget Password"
+        android:text="비밀번호를 잊어버리셨나요?"
         android:layout_marginTop="20dp"
         android:layout_marginStart="20dp"
         android:textColor="@color/primary"
@@ -93,7 +93,7 @@
         android:layout_height="55dp"
         android:layout_marginEnd="20dp"
         android:layout_marginStart="20dp"
-        android:text="Sign it"
+        android:text="회원가입"
         android:textAllCaps="false"
         android:layout_marginTop="40dp"
         android:textColor="#808080" />
@@ -118,7 +118,7 @@
             android:id="@+id/orTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="OR"
+            android:text="또는"
             android:layout_centerInParent="true"
             android:textSize="12sp"
             android:textColor="#80000000" />
@@ -154,7 +154,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:text="Sign In with Google"
+            android:text="구글 계정으로 로그인"
             android:textColor="#E6000000"
             android:textStyle="bold" />
     </RelativeLayout>
@@ -169,14 +169,14 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Don't have an account?" />
+            android:text="혹시 계정이 없으신가요?" />
 
         <TextView
             android:id="@+id/signUpBtn"
             android:layout_marginStart="5dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Sign Up"
+            android:text="회원가입"
             android:textColor="@color/primary"
             android:textStyle="bold" />
     </LinearLayout>

@@ -1,12 +1,12 @@
 <resources>
     <!-- Existing strings -->
     <string name="app_name">Home1</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
-    <string name="title_mypage">MyPage</string>
+    <string name="title_home">홈</string>
+    <string name="title_chat">프로필</string>
+    <string name="title_dashboard">커뮤니티</string>
+    <string name="title_notifications">프로필</string>
 
-    <!-- Hardcoded(MyPage) -->
+
 
     <!-- fragment_mypage.xml -->
     <string name="welcome_mypage">Welcome to MyPage</string>
@@ -80,6 +80,8 @@
     <string name="button5_desc">이미지 5의 설명</string>
     <string name="button6_desc">이미지 6의 설명</string>
     <string name="button7_desc">이미지 7의 설명</string>
+    <string name="button8_desc">이미지 8의 설명</string>
+    <string name="button9_desc">이미지 9의 설명</string>
     <string name="button11_desc">이미지 11의 설명</string>
     <string name="button12_desc">이미지 12의 설명</string>
     <string name="button13_desc">이미지 13의 설명</string>
@@ -141,6 +143,9 @@
     <!-- Success Messages -->
     <string name="success_item_deleted">아이템이 삭제되었습니다.</string>
     <string name="success_item_added">아이템이 추가되었습니다.</string>
+
+    <string name="dashboard_add_new_post">새로운 포스트 추가</string>
+    <string name="title_activity_poll_detail">투표</string>
 </resources>
 
 
