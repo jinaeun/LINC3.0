@@ -1,4 +1,4 @@
-package com.cookandroid.linc_sadaju.my_page.ui.chat;
+package com.cookandroid.linc_sadaju.ui.chat;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

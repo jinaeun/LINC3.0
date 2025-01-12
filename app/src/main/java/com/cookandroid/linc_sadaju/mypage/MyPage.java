@@ -1,4 +1,4 @@
-package com.cookandroid.linc_sadaju.my_page;
+package com.cookandroid.linc_sadaju.mypage;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -17,7 +17,7 @@ public class MyPage extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.mypage_activity_main);
 
         // intent 창 연계 버튼
         editor = findViewById(R.id.editor);         // 프로필 편집 버튼

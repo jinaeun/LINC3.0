@@ -1,4 +1,4 @@
-package com.cookandroid.linc_sadaju.my_page;
+package com.cookandroid.linc_sadaju.mypage;
 
 import android.os.Bundle;
 import android.util.Log;

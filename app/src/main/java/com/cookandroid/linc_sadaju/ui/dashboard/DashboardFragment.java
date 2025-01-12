@@ -1,4 +1,4 @@
-package com.cookandroid.linc_sadaju.my_page.ui.dashboard;
+package com.cookandroid.linc_sadaju.ui.dashboard;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

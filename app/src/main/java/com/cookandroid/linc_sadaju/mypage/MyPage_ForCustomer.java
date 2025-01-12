@@ -1,4 +1,4 @@
-package com.cookandroid.linc_sadaju.my_page;
+package com.cookandroid.linc_sadaju.mypage;
 
 import android.annotation.SuppressLint;
 import android.content.Context;

@@ -1,4 +1,4 @@
-package com.cookandroid.linc_sadaju.my_page.ui.dashboard;
+package com.cookandroid.linc_sadaju.ui.dashboard;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;

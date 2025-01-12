@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
-    tools:context=".my_page.MyPage_Trade">
+    tools:context=".mypage.MyPage_Trade">
 
     <TextView
         android:id="@+id/tvTitle"

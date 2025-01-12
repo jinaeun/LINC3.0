@@ -1,4 +1,4 @@
-package com.cookandroid.linc_sadaju.my_page.ui.mypage;
+package com.cookandroid.linc_sadaju.ui.mypage;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

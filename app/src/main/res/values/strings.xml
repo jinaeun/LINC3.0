@@ -6,7 +6,11 @@
     <string name="title_mypage">My Page</string>
 
     <!-- Hardcoded(MyPage) -->
+
     <!-- fragment_mypage.xml -->
+    <string name="welcome_mypage">Welcome to MyPage</string>
+
+    <!--  -->
     <string name="nickname">곽두팔75 </string>
     <string name="nickname_title">Nickname </string>
     <string name="email_title">Email </string>
