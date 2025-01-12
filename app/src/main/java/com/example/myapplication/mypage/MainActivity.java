@@ -14,8 +14,8 @@ import androidx.navigation.fragment.NavHostFragment;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
-import com.example.myapplication.MypageActivityMainBinding;
 import com.example.myapplication.R;
+import com.example.myapplication.databinding.MypageActivityMainBinding;
 
 import java.io.File;
 
@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         // ViewBinding 초기화
-        binding = MypageActivityMainBindingzz.inflate(getLayoutInflater());
+        binding = MypageActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
         // 스토리지 권한 요청
@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
 
         // NavController 및 AppBarConfiguration 설정
         AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.navigation_home, R.id.navigation_dashboard, R.id.navigation_chat, R.id.navigation_mypage
+                R.id.navigation_home, R.id.navigation_dashboard, R.id.navigation_chat, R.id.navigation_notifications
         ).build();
 
         try {
