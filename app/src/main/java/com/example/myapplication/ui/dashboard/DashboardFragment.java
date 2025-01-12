@@ -18,8 +18,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.myapplication.dashboard.PostAdapter;
 import com.example.myapplication.dashboard.PollsDBHelper;
 import com.example.myapplication.dashboard.Post;
-import com.example.myapplication2.R;
-import com.example.myapplication2.databinding.FragmentDashboardBinding;
+import com.example.myapplication.R;
+import com.example.myapplication.databinding.FragmentDashboardBinding;
 
 import java.util.ArrayList;
 

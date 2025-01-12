@@ -10,7 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.myapplication2.databinding.FragmentChatBinding;
+import com.example.myapplication.databinding.FragmentChatBinding;
 
 public class ChatFragment extends Fragment {
 

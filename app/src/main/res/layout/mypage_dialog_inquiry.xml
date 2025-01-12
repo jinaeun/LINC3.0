@@ -1,0 +1,66 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/inquiryImagesTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:padding="10dp"
+                android:text="@string/inquiry_title" />
+
+            <ImageButton
+                android:id="@+id/inquiryImages"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="10dp"
+                android:importantForAutofill="no"
+                android:src="@drawable/ic_photos_black_24dp"
+                android:contentDescription="@string/inquiry_images_description" />
+
+            <TextView
+                android:id="@+id/inquiryTextTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/inquiry_content" />
+
+            <EditText
+                android:id="@+id/inquiryText"
+                android:layout_width="450dp"
+                android:layout_height="48dp"
+                android:layout_gravity="left"
+                android:importantForAutofill="no"
+                android:padding="10dp"
+                android:inputType="text"
+                android:minLines="5"
+                android:hint="@string/inquiry_hint" />
+
+            <Button
+                android:id="@+id/save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:paddingHorizontal="20dp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/purple_700"
+                android:text="@string/button_save" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
