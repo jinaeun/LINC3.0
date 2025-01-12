@@ -26,6 +26,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewpager2.widget.ViewPager2;
 
+import com.example.myapplication.R;
 import com.example.myapplication.ui.dashboard.DashboardFragment;
 import com.example.myapplication.ui.dashboard.HomeFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -58,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.dashboard_activity_main);
 
         dbHelper = new PollsDBHelper(this);
 

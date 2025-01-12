@@ -14,6 +14,8 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.myapplication.R;
+
 import java.util.ArrayList;
 
 public class NewPollActivity extends AppCompatActivity {
@@ -29,7 +31,7 @@ public class NewPollActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.dialog_add_post);
+        setContentView(R.layout.dashboard_dialog_add_post);
 
         dbHelper = new PollsDBHelper(this);
 

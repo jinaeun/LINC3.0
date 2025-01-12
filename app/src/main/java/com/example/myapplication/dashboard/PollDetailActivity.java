@@ -25,6 +25,8 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import com.example.myapplication.R;
+
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
@@ -48,7 +50,7 @@ public class PollDetailActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_poll_detail);
+        setContentView(R.layout.dashboard_activity_poll_detail);
 
         dbHelper = new PollsDBHelper(this);
 
@@ -414,7 +416,7 @@ public class PollDetailActivity extends AppCompatActivity {
     private void handleComment() {
         String commentText = commentInput.getText().toString().trim();
         if (!commentText.isEmpty()) {
-            View commentView = getLayoutInflater().inflate(R.layout.item_comment, null);
+            View commentView = getLayoutInflater().inflate(R.layout.dashboard_item_comment, null);
             ImageView profileImageView = commentView.findViewById(R.id.profileImageView);
             TextView commentAuthorTextView = commentView.findViewById(R.id.commentAuthorTextView);
             TextView commentTextView = commentView.findViewById(R.id.commentTextView);
