@@ -416,7 +416,7 @@ public class PollDetailActivity extends AppCompatActivity {
     private void handleComment() {
         String commentText = commentInput.getText().toString().trim();
         if (!commentText.isEmpty()) {
-            View commentView = getLayoutInflater().inflate(R.layout.item_comment, null);
+            View commentView = getLayoutInflater().inflate(R.layout.dashboard_item_comment, null);
             ImageView profileImageView = commentView.findViewById(R.id.profileImageView);
             TextView commentAuthorTextView = commentView.findViewById(R.id.commentAuthorTextView);
             TextView commentTextView = commentView.findViewById(R.id.commentTextView);
