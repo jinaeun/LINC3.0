@@ -51,11 +51,74 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a75fd8ce-1698-4a94-93ce-5f8015a784c8" name="Changes" comment="241226">
+    <list default="true" id="a75fd8ce-1698-4a94-93ce-5f8015a784c8" name="Changes" comment="250106 develop commit">
+      <change beforePath="$PROJECT_DIR$/.gradle/8.6/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.6/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.6/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.6/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.6/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.6/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitTest-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitTest-master/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/app/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitTest-master/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitTest-master/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitTest-master/.idea/deploymentTargetSelector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitTest-master/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitTest-master/.idea/migrations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/.idea/migrations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitTest-master/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitTest-master/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitTest-master/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitTest-master/app/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitTest-master/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitTest-master/app/src/androidTest/java/com/example/home/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitTest-master/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitTest-master/app/src/main/java/com/example/home/DBHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitTest-master/app/src/main/java/com/example/home/LoginActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitTest-master/app/src/main/java/com/example/home/MailSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitTest-master/app/src/main/java/com/example/home/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitTest-master/app/src/main/java/com/example/home/ResetPasswordActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitTest-master/app/src/main/java/com/example/home/SignUpActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitTest-master/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitTest-master/app/src/main/res/drawable/baseline_arrow_back_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitTest-master/app/src/main/res/drawable/google_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitTest-master/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitTest-master/app/src/main/res/drawable/password_hide.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitTest-master/app/src/main/res/drawable/password_show.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitTest-master/app/src/main/res/drawable/round_back_dark_blue5_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitTest-master/app/src/main/res/drawable/round_back_primary_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitTest-master/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitTest-master/app/src/main/res/layout/login.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitTest-master/app/src/main/res/layout/reset_password.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitTest-master/app/src/main/res/layout/sign_up.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitTest-master/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitTest-master/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitTest-master/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitTest-master/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitTest-master/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitTest-master/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitTest-master/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitTest-master/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitTest-master/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitTest-master/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitTest-master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitTest-master/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitTest-master/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitTest-master/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitTest-master/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitTest-master/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitTest-master/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitTest-master/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitTest-master/app/src/test/java/com/example/home/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitTest-master/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitTest-master/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitTest-master/gradle/libs.versions.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitTest-master/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitTest-master/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitTest-master/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitTest-master/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitTest-master/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,6 +172,9 @@
       </state>
     </system>
   </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/Home" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -135,7 +201,7 @@
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/AndroidStudio/LINC3.0/app/src/main/java/com/example/myapplication/home&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/AndroidStudio/LINC3.0&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
@@ -247,7 +313,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735224487106</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="250106 develop commit">
+      <option name="closed" value="true" />
+      <created>1736095286858</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1736095286858</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -263,6 +337,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="241226" />
-    <option name="LAST_COMMIT_MESSAGE" value="241226" />
+    <MESSAGE value="250106 develop commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="250106 develop commit" />
   </component>
 </project>
