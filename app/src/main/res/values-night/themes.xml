@@ -1,5 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
+<<<<<<< HEAD
     <style name="Theme.LINC_SADAJU" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <item name="android:background">@android:color/transparent</item>
         <!-- Primary brand color. -->
@@ -11,6 +12,19 @@
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor">@color/white</item>
+=======
+    <style name="Theme.MyApplication2" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+>>>>>>> 3b92ff62f4b0f8b2ff81eb3f5afdf5e7d2c2aa9e
         <!-- Customize your theme here. -->
     </style>
 </resources>

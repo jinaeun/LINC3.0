@@ -5,13 +5,12 @@ plugins {
 }
 
 android {
-    namespace = "com.cookandroid.linc_sadaju"
+    namespace = "com.example.myapplication"
     compileSdk = 34
-    buildToolsVersion = "34.0.0"
 
     defaultConfig {
-        applicationId = "com.cookandroid.linc_sadaju"
-        minSdk = 21
+        applicationId = "com.example.myapplication"
+        minSdk = 22
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -28,6 +27,7 @@ android {
                     getDefaultProguardFile("proguard-android-optimize.txt"),
                     "proguard-rules.pro"
             )
+            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
         }
     }
     compileOptions {
@@ -36,11 +36,11 @@ android {
     }
     buildFeatures {
         viewBinding = true
+        dataBinding = true
     }
     tasks.withType<JavaCompile> {
         options.compilerArgs.add("-Xlint:deprecation")
     }
-
 }
 
 dependencies {

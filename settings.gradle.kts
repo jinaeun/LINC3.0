@@ -19,6 +19,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "LINC_SADAJU"
+
+rootProject.name = "My Application2"
 include(":app")
  
