@@ -166,9 +166,8 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a75fd8ce-1698-4a94-93ce-5f8015a784c8" name="Changes" comment="250112 develop commit">
+    <list default="true" id="a75fd8ce-1698-4a94-93ce-5f8015a784c8" name="Changes" comment="250112 develop 2차 commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/chat.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/chat.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -398,7 +397,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736692742673</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="250112 develop 2차 commit">
+      <option name="closed" value="true" />
+      <created>1736693612267</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1736693612267</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -417,6 +424,7 @@
     <MESSAGE value="250106 develop commit" />
     <MESSAGE value="250112 develop --&gt; master commit" />
     <MESSAGE value="250112 develop commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="250112 develop commit" />
+    <MESSAGE value="250112 develop 2차 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="250112 develop 2차 commit" />
   </component>
 </project>
